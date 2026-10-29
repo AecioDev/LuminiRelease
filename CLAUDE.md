@@ -1,6 +1,6 @@
-# Lumini Releases — instruções permanentes
+# Lumini Hub Releases — instruções permanentes
 
-Projeto Astro estático com as notas de versão do Lumini. Responda sempre em português do Brasil.
+Projeto Astro estático com as notas de versão do Lumini Hub. Responda sempre em português do Brasil.
 
 ## Fluxo "nova release"
 

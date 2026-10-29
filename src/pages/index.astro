@@ -5,7 +5,7 @@ import { formatarData, ordenarReleases, temaHtml, url } from '../utils';
 
 const releases = ordenarReleases(await getCollection('releases'));
 ---
-<ReleaseLayout titulo="Lumini Releases" indice>
+<ReleaseLayout titulo="Lumini Hub Releases" indice>
   <ul class="release-list" style="padding-block: 40px 0">
     {releases.map((r, i) => (
       <li>

@@ -33,9 +33,9 @@ const dataFormatada = data ? formatarData(data) : '';
     {indice ? (
       <header class="hero short">
         <div class="wrap">
-          <p class="eyebrow">Lumini · Notas da versão</p>
+          <p class="eyebrow">Lumini Hub · Notas da versão</p>
           <h1>Todas as versões</h1>
-          <p class="lede">Histórico das releases do sistema Lumini, da mais recente para a mais antiga.</p>
+          <p class="lede">Histórico das releases do sistema Lumini Hub, da mais recente para a mais antiga.</p>
         </div>
       </header>
     ) : (
@@ -43,7 +43,7 @@ const dataFormatada = data ? formatarData(data) : '';
       <header class="hero">
         <div class="wrap">
           <a class="back" href={url()}>&larr; Todas as versões</a>
-          <p class="eyebrow">Lumini · Notas da versão</p>
+          <p class="eyebrow">Lumini Hub · Notas da versão</p>
           <h1>Release {versao}</h1>
           <p class="lede" set:html={temaHtml(tema)} />
           <dl class="meta" style="margin:0">
@@ -76,8 +76,8 @@ const dataFormatada = data ? formatarData(data) : '';
     <footer>
       <div class="wrap">
         {indice
-          ? 'Lumini · Notas da versão'
-          : `Lumini · Release ${versao} · banco de dados versão ${banco} · documento gerado em ${dataFormatada}`}
+          ? 'Lumini Hub · Notas da versão'
+          : `Lumini Hub · Release ${versao} · banco de dados versão ${banco} · documento gerado em ${dataFormatada}`}
         <p class="dev">Desenvolvedor Responsável - Aécio Espinoza Miranda</p>
       </div>
     </footer>

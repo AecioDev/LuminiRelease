@@ -1,6 +1,6 @@
-# Lumini Releases
+# Lumini Hub Releases
 
-Site estático (Astro) com as notas de versão do sistema Lumini. Cada release é um arquivo Markdown em `src/content/releases/`; o site gera uma página por release e um índice.
+Site estático (Astro) com as notas de versão do sistema Lumini Hub. Cada release é um arquivo Markdown em `src/content/releases/`; o site gera uma página por release e um índice.
 
 ## Comandos
 

@@ -1,4 +1,4 @@
-// Plugin rehype das notas de versão do Lumini.
+// Plugin rehype das notas de versão do Lumini Hub.
 // Transforma o HTML gerado do Markdown na estrutura da página de referência:
 // seções, itens com rótulo, etiquetas de status, cards, notas, destinos e tabelas com rolagem.
 // Não tem dependências: percorre a árvore hast com funções próprias.

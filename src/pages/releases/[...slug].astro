@@ -16,7 +16,7 @@ const { Content, remarkPluginFrontmatter } = await render(entry);
 const secoes = (remarkPluginFrontmatter.secoes ?? []) as Secao[];
 const { versao, banco, data, tema } = entry.data;
 ---
-<ReleaseLayout titulo={`Lumini Release ${versao}`} versao={versao} banco={banco} data={data} tema={tema} secoes={secoes}>
+<ReleaseLayout titulo={`Lumini Hub Release ${versao}`} versao={versao} banco={banco} data={data} tema={tema} secoes={secoes}>
   <Content />
   <nav class="pager" aria-label="Navegação entre versões">
     {maisAntiga ? (
